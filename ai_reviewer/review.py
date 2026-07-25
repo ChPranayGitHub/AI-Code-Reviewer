@@ -20,8 +20,13 @@ Rules:
 - Mention file names whenever possible.
 - If no issues are present, say so.
 - You should not repeat your analysis again and again.
+- Do NOT include conversational phrases such as:
+  - "If you want..."
+  - "Let me know..."
+  - "I can also..."
+  - "Feel free to..."
 
-Return your response in Markdown using only the following sections:
+Return your response in Markdown using ONLY the following sections:
 
 # Overall Score (out of 10)
 
