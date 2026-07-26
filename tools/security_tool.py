@@ -20,6 +20,15 @@ SECRET_PATTERNS = {
 }
 
 def scan_file(file_path):
+    """
+    Scan a Python file for potential security issues.
+
+    Args:
+        file_path (str): The path to the Python file to scan.
+
+    Returns:
+        dict: A dictionary containing the scan results.
+    """
     with open(file_path, "r", encoding="utf-8") as f:
         source = f.read()
 

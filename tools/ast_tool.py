@@ -2,6 +2,7 @@ import ast
 
 
 def analyze_file(file_path):
+    """Analyze a Python file and return its AST analysis"""
     with open(file_path, "r", encoding="utf-8") as f:
         tree = ast.parse(f.read())
 

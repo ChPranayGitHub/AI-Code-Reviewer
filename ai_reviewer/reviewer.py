@@ -1,4 +1,4 @@
-from agents import Agent, Runner
+from agents import Agent
 from dotenv import load_dotenv
 
 load_dotenv()

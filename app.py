@@ -11,6 +11,15 @@ from report_generator import save_markdown
 
 
 def analyze_repository(repo_url):
+    """
+    Analyze a GitHub repository and generate an AI code review.
+
+    Args:
+        repo_url (str): Public GitHub repository URL.
+
+    Returns:
+        tuple: AI review and Markdown report path.
+    """
     try:
         repo = clone_repo(repo_url)
 

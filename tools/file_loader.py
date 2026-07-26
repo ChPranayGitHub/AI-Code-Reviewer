@@ -12,6 +12,15 @@ IGNORE_DIRS = {
 }
 
 def get_python_files(repo_path):
+    """
+    Load all Python files from the repository, excluding ignored directories.
+
+    Args:
+        repo_path (str): The path to the repository.
+
+    Returns:
+        list: A list of Path objects representing the Python files.
+    """
     repo = Path(repo_path)
     python_files = []
 

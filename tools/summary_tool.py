@@ -1,4 +1,13 @@
 def summarize_ast(ast_results):
+    """
+    Summarize the AST analysis results.
+
+    Args:
+        ast_results (list): A list of dictionaries containing AST analysis findings.
+
+    Returns:
+        dict: A dictionary containing the summarized AST findings.
+    """
     summary = {
         "files": 0,
         "functions": 0,
@@ -22,6 +31,15 @@ def summarize_ast(ast_results):
 
 
 def summarize_security(security_results):
+    """
+    Summarize the security scan results.
+
+    Args:
+        security_results (list): A list of dictionaries containing security scan findings.
+
+    Returns:
+        dict: A dictionary containing the summarized security findings.
+    """
     summary = {
         "critical_count": 0,
         "high_count": 0,
